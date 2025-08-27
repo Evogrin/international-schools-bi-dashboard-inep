@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/
+*.csv
+*.xlsx
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
