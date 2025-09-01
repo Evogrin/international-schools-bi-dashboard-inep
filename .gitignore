@@ -1,23 +1,44 @@
+# ==========================
 # Python
+# ==========================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.pkl
+*.egg-info/
+.env
 .venv/
 venv/
-.env
+ENV/
+env/
+*.sqlite3
 
-# Jupyter
+# ==========================
+# Jupyter Notebook
+# ==========================
 .ipynb_checkpoints
+*.nbconvert.ipynb
 
-# Data
-data/
+# ==========================
+# VSCode
+# ==========================
+.vscode/
+*.code-workspace
+
+# ==========================
+# Dados
+# ==========================
+data/raw/
+data/interim/
+data/processed/
 *.csv
 *.xlsx
+*.json
+*.parquet
 
-# VSCode
-.vscode/
-
-# OS
+# ==========================
+# Sistema
+# ==========================
 .DS_Store
 Thumbs.db

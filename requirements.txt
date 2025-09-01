@@ -1,0 +1,12 @@
+# Manipulação de dados
+pandas
+numpy
+
+# Visualização
+matplotlib
+seaborn
+plotly
+
+# Ambientes interativos
+jupyter
+notebook
